@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 import { Redirect, Route, Switch } from 'react-router-dom'
 import { Layout } from 'antd'
 
@@ -34,9 +34,6 @@ export default class Admin extends Component {
                             <Route path='/product' component={Product} />
                             <Route path='/role' component={Role} />
                             <Route path='/user' component={User} />
-                            {/* <Route path='/charts/bar' component={Bar}/>  */}
-                            {/* <Route path='/charts/line' component={Line}/>  */}
-                            {/* <Route path='/charts/pie' component={Pie}/>  */}
                         </Switch>
                     </Content>
                     <Footer style={{ textAlign: 'center', color: '#ccc' }}>Footer</Footer>

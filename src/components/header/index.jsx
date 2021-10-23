@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom'
 import { Modal } from 'antd'
 
 import './index.less'
-import LinkButton from '../link -button'
+import LinkButton from '../link-button'
 import menuList from '../../config/menuConfig'
 import memoryUtils from '../../utils/memoryUtils'
 import storageUtils from '../../utils/storageUtils'
