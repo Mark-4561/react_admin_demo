@@ -11,8 +11,6 @@ import Product from '../product/product'
 import Role from '../role/role'
 import User from '../user/user'
 
-/*管理的路由组件*/
-
 const { Footer, Sider, Content } = Layout;
 
 export default class Admin extends Component {
@@ -31,12 +29,12 @@ export default class Admin extends Component {
                             <Redirect from='/' exact to='/home' />
                             <Route path='/home' component={Home} />
                             <Route path='/category' component={Category} />
-                            <Route path='/product' component={Product} />
-                            <Route path='/role' component={Role} />
+                            {/* <Route path='/product' component={Product} /> */}
+                            {/* <Route path='/role' component={Role} /> */}
                             <Route path='/user' component={User} />
                         </Switch>
                     </Content>
-                    <Footer style={{ textAlign: 'center', color: '#ccc' }}>Footer</Footer>
+                    <Footer style={{ textAlign: 'center', color: '#ccc' }}>推荐使用谷歌浏览器，来获得更佳操作体验</Footer>
                 </Layout>
             </Layout>
         )

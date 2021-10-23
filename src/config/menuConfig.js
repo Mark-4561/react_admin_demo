@@ -29,18 +29,18 @@ const menuList = [
 				key: '/category',
 				icon: <AppstoreOutlined />
 			},
-			{
-				title: '商品管理',
-				key: '/product',
-				icon: <ProfileOutlined />
-			},
+			// {
+			// 	title: '商品管理',
+			// 	key: '/product',
+			// 	icon: <ProfileOutlined />
+			// },
 		]
 	},
-	{
-		title: '角色管理',
-		key: '/role',
-		icon: <SmileOutlined />,
-	},
+	// {
+	// 	title: '角色管理',
+	// 	key: '/role',
+	// 	icon: <SmileOutlined />,
+	// },
 ]
 
 export default menuList
